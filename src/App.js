@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+const regex= "^[\w\.]+@([\w-]+\.)+[\w-]{2,4}$"
 
 class App extends React.Component {
   constructor(props) {
